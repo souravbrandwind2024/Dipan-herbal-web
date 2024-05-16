@@ -218,6 +218,9 @@
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767px) {
+  .products-area .pagination-area {
+    margin-top: 31px;
+}
   .description-area p{
     font-size: 14px;
     line-height: 23px;

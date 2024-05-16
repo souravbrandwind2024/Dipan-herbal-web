@@ -105,7 +105,7 @@ $('.product-carousel').owlCarousel({
   margin: 27,
   loop: true,
   responsiveClass: true,
-  nav: false,
+  nav: true,
   dots: false,
   animateOut: 'fadeOut',
 //   autoplay: true,
@@ -122,6 +122,7 @@ smartSpeed: 4500,
       },
       500: {
           items: 2,
+          nav: false,
       },
       1200: {
           items: 5,

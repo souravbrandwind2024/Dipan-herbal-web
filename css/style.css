@@ -1298,18 +1298,24 @@ box-shadow: 0 2px 12px 0 #00000036; */
 }
 
 .it-footer-list ul li a {
-  color: #1d1d1d;
-  font-size: 14px;
-  font-weight: 400;
-  font-family: "Poppins", sans-serif;
-  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: 500;
+  color: #000;
+  line-height: 27px;
+  /* text-transform: capitalize; */
+  text-decoration: none;
   display: inline-block;
-  display: inline;
+  /* display: inline; */
   background-size: 0% 1px, 0 1px;
   background-position: 100% 100%, 0 100%;
   background-repeat: no-repeat;
-  transition: background-size 0.3s linear;
-  background-image: linear-gradient(#fff, #fff), linear-gradient(#fff, #fff);
+  transition: 0.3s linear;
+  background-image: linear-gradient(#1ea346, #1ea346), linear-gradient(#1ea346, #1ea346);
+}
+.it-footer-list ul li a:hover{
+  color: #fec901;
+  background-size: 0% 1px, 100% 1px;
+  margin-left: 5px;
 }
 
 .it-footer-list ul li a img {
@@ -2742,3 +2748,54 @@ ul li.updown-btn .input-number {
 
 /* ----- product-details-area-end ------- */
 
+
+
+.products-area .product-carousel .owl-nav button.owl-prev {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  top: 45%;
+  right: 15px;
+  left: -99%;
+  position: absolute;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* opacity: 0; */
+  line-height: 45px;
+  font-size: 26px;
+  color: #ffffff;
+  background: #8e908d;
+}
+
+.products-area .product-carousel .owl-nav button.owl-next {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  top: 44%;
+  right: -2%;
+  position: absolute;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* opacity: 0; */
+  line-height: 45px;
+  font-size: 26px;
+  color: #ffffff;
+  background: #8e908d;
+}
+
+.products-area .product-carousel .owl-nav button.owl-next:hover {
+  background-color: #1ea346;
+  transition: all 0.8s ease;
+}
+
+.products-area .product-carousel .owl-nav button.owl-prev:hover {
+  background-color: #1ea346;
+  transition: all 0.8s ease;
+}
+.products-area .pagination-area{
+  margin-top: 58px;
+}

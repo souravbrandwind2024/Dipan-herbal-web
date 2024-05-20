@@ -2744,11 +2744,7 @@ ul li.updown-btn .input-number {
   border: 1px solid #000;
 }
 
-
-
 /* ----- product-details-area-end ------- */
-
-
 
 .products-area .product-carousel .owl-nav button.owl-prev {
   width: 48px;
@@ -2761,12 +2757,19 @@ ul li.updown-btn .input-number {
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
+  align-items: center;
   /* opacity: 0; */
   line-height: 45px;
   font-size: 26px;
   color: #ffffff;
   background: #8e908d;
+  box-shadow: -1px -20px 35px #32325d4d, 0px 8px 15px #00000012;
+}
+.products-area .product-carousel .owl-nav button.owl-prev i{
+  font-size: 17px;
+}
+.products-area .product-carousel .owl-nav button.owl-next i{
+  font-size: 17px;
 }
 
 .products-area .product-carousel .owl-nav button.owl-next {
@@ -2779,12 +2782,13 @@ ul li.updown-btn .input-number {
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
+  align-items: center;
   /* opacity: 0; */
   line-height: 45px;
   font-size: 26px;
   color: #ffffff;
   background: #8e908d;
+  box-shadow: -1px -20px 35px #32325d4d, 0px 8px 15px #00000012;
 }
 
 .products-area .product-carousel .owl-nav button.owl-next:hover {
@@ -2799,3 +2803,20 @@ ul li.updown-btn .input-number {
 .products-area .pagination-area{
   margin-top: 58px;
 }
+
+/* ----- Login-area-start ------- */
+.login-area{
+  position: relative;
+}
+.login-inner{
+  max-width: 450px;
+  margin: 0 auto;
+}
+.login-inner h2{
+  text-transform: capitalize;
+  font-size: 29px;
+  font-weight: 600;
+  margin-bottom: 27px;
+}
+
+/* ----- Login-area-end ------- */

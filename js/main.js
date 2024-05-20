@@ -108,6 +108,7 @@ $('.product-carousel').owlCarousel({
   nav: true,
   dots: false,
   animateOut: 'fadeOut',
+  navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
 //   autoplay: true,
   autoplay: 8500,
   autoplayTimeout: 4500,

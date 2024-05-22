@@ -1184,7 +1184,7 @@ box-shadow: 0 2px 12px 0 #00000036; */
   margin-right: 13px;
 }
 
-.newsletter-wrap button {
+.newsletter-wrap a.btn {
   background: #ed1b24;
   color: #fff;
   text-transform: capitalize;
@@ -1193,6 +1193,8 @@ box-shadow: 0 2px 12px 0 #00000036; */
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   border-radius: 7px;
+  outline: none;
+  border: 1px solid #ed1b24;
 }
 
 /* ----- newsletter-area-end ------- */
@@ -2900,3 +2902,11 @@ ul li.updown-btn .input-number {
 }
 
 /* ----- Login-area-end ------- */
+
+/* ----- our-story-area-start ------- */
+
+
+
+
+
+/* ----- our-story-area-end ------- */

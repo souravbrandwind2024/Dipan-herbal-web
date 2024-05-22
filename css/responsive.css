@@ -218,6 +218,11 @@
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767px) {
+  .newsletter-wrap a.btn{
+    font-size: 13px;
+    margin-top: 4px;
+    padding: 9px 21px 10px 21px;
+  }
   .signup-sec{
     margin-top: 18px;
   }
@@ -237,7 +242,7 @@
     font-size: 14px;
   }
   .login-inner h2{
-    font-size: 19px;
+    font-size: 17px;
     margin-bottom: 17px;
   }
   .products-area .pagination-area {

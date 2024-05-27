@@ -447,7 +447,7 @@
     flex-direction: column;
   }
 
-  .accordion .card .card-header.collapsed {}
+  .faq-area .accordion .card .card-header.collapsed {}
 
   .faq-area h3 {
     padding: 15px;
@@ -559,17 +559,17 @@
     padding: 19px;
   }
 
-  .accordion .card .card-body p {
+  .faq-area .accordion .card .card-body p {
     font-size: 13px;
     line-height: 26px;
   }
 
-  .accordion h3 {
+  .faq-area .accordion h3 {
     font-size: 18px;
     margin-bottom: 0;
   }
 
-  .accordion .card .card-header {
+  .faq-area .accordion .card .card-header {
     font-size: 13px;
     line-height: 23px;
   }

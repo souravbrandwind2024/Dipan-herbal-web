@@ -218,6 +218,15 @@
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767px) {
+  .sitemap-area .middle-area .product-listing-area ul li {
+    margin-bottom: 8px;
+}
+  .sitemap-area .middle-area h4{
+    margin: 24px 0;
+  }
+  .sitemap-area .middle-area h3{
+    font-size: 15px;
+  }
   .newsletter-wrap a.btn{
     font-size: 13px;
     margin-top: 4px;

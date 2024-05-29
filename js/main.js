@@ -235,6 +235,9 @@ $(".weight-label.area1 .waitbtn li").click(function(){
 // product-list-range-slider-area-end //
 
 
+// blog-tooltip-area-start //
+$('#example').tooltip(options)
+// blog-tooltip-area-end //
 
 });
 

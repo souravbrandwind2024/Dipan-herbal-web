@@ -3607,3 +3607,11 @@ ul li.updown-btn .input-number {
 }
 
 /* ----- blog-details-area-end ------- */
+
+
+div.sticky-sidebar-product-list {
+  position: sticky;
+  top: 115px;
+  border: none;
+  border-radius: 0;
+}

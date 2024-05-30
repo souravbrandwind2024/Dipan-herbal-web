@@ -239,11 +239,25 @@ $(".weight-label.area1 .waitbtn li").click(function(){
 $('#example').tooltip(options)
 // blog-tooltip-area-end //
 
+
 });
 
 
 
 
+// header-search-fullscreen-area-start //
+function openSearch() {
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function closeSearch() {
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// header-search-fullscreen-area-end //
+
+
+// product-details-increment-decrement-area-start //
 (function() {
  
   window.inputNumber = function(el) {
@@ -285,6 +299,8 @@ $('#example').tooltip(options)
 })();
 
 inputNumber($('.updown-btn .input-number'))
+
+// product-details-increment-decrement-area-end //
 
 
 

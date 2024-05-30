@@ -557,6 +557,7 @@ input:-webkit-autofill:focus {
   position: relative;
   right: 0;
   top: 0;
+  z-index: 1;
 
   .swiper-slide {
     &.swiper-slide-active {
@@ -587,6 +588,7 @@ input:-webkit-autofill:focus {
   height: 45px;
   /* top: 20px; */
   right: 38px;
+  z-index: 1;
   /* transform: translateX(-50px); */
   background-color: #ffffff;
   border-radius: 50%;
@@ -613,6 +615,7 @@ box-shadow: 0 2px 12px 0 #00000036; */
   /* top: 91%; */
   right: 0;
   left: 41px;
+  z-index: 1;
   background-color: #ffffff;
   border-radius: 50%;
   box-shadow: 0 2px 12px 0 #00000036;
@@ -2135,7 +2138,7 @@ box-shadow: 0 2px 12px 0 #00000036; */
   padding: 20px 15px;
   border-radius: 10px;
   position: relative;
-  z-index: 2;
+  z-index: 1;
   top: -40px;
   left: 0;
   right: 0;
@@ -3614,4 +3617,92 @@ div.sticky-sidebar-product-list {
   top: 115px;
   border: none;
   border-radius: 0;
+}
+
+.openBtn {
+  cursor: pointer;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+}
+
+.overlay-content {
+  position: relative;
+  top: 46%;
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
+}
+.overlay-content form{
+  display: flex;
+  justify-content: center;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 23%;
+  right: 45px;
+  font-size: 20px;
+  color: white;
+  background: #275d43;
+  height: 45px;
+  width: 45px;
+  text-align: center;
+  line-height: 42px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: bold;
+  border: 2px solid #fff;
+}
+
+.overlay .closebtn:hover {
+  color: #ccc;
+}
+
+.overlay input[type=text] {
+  padding: 15px 15px 15px 19px;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  float: left;
+  width: 44%;
+  height: 53px;
+  background: white;
+  color: #000000;
+  border-radius: 7px 0 0 7px;
+  outline: none;
+}
+.overlay input[type=text]:focus{
+  border: 2px solid #499d74;
+}
+
+.overlay input[type=text]:hover {
+  background: #f1f1f1;
+}
+
+.overlay button {
+  float: left;
+  width: 11%;
+  padding: 15px;
+  background: #275d43;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 0 7px 7px 0;
+  transition: all 0.7s ease;
+}
+
+.overlay button:hover {
+  background: #35835d;
 }

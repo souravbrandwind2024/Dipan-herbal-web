@@ -240,8 +240,22 @@ $('#example').tooltip(options)
 // blog-tooltip-area-end //
 
 
+
 });
 
+
+// wishlist-heart-icon-area-start //
+    $('.wishlist-link').click(function(){
+      event.preventDefault();
+      if($(this).find('i').hasClass('far')){
+         $(this).children('i').removeClass('far').addClass('fas');
+      }
+      else if($(this).find('i').hasClass('fas')){
+          $(this).children('i').removeClass('fas').addClass('far');
+       }
+  });
+  
+// wishlist-heart-icon-area-end //
 
 
 

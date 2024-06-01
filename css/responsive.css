@@ -218,6 +218,9 @@
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767px) {
+  .contact-us-alert{
+    width: 100%;
+  }
   .overlay button{
     width: unset;
     font-size: 13px;
@@ -646,7 +649,8 @@
   }
 
   .shop-category .category-box img {
-    height: 93px;
+    height: 85px;
+    width: 85px;
   }
 
   .swiper-button-next {
@@ -696,6 +700,10 @@
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575px) {
+  .product-wrapper .product-img .product-icon{
+    top: 1%;
+    left: 2%;
+  }
   .quantity-area h4{
     font-size: 13px;
   }

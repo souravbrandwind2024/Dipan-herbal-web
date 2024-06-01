@@ -714,6 +714,11 @@ box-shadow: 0 2px 12px 0 #00000036; */
   margin: 13px 0 0 0;
   font-family: "Poppins", sans-serif;
 }
+.shop-category .category-box p a{
+  font-size: 15px;
+  font-weight: 700;
+  color: #000;
+}
 
 .shop-category .category-listing {
   display: flex;
@@ -831,7 +836,7 @@ box-shadow: 0 2px 12px 0 #00000036; */
 .product-wrapper,
 .product-wrapper-2 {
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .product-wrapper .product-img,
@@ -887,20 +892,15 @@ box-shadow: 0 2px 12px 0 #00000036; */
 }
 
 .product-wrapper .product-img .product-icon {
-  bottom: 83%;
-  right: -23%;
+  top: -2%;
+  left: -3%;
   position: absolute;
   z-index: 3;
-  /* transition: .8s; */
 }
 
 .product-wrapper:hover .product-img .product-icon {
-  right: 2%;
-  /* -webkit-transform: translateX(-50%);
-	-moz-transform: translateX(-50%);
-	-ms-transform: translateX(-50%);
-	-o-transform: translateX(-50%); */
-  transform: translateY(-60%);
+  /* right: 2%; */
+  /* transform: translateY(-50%); */
 }
 
 .product-wrapper .product-img .product-icon a {
@@ -1469,6 +1469,10 @@ box-shadow: 0 2px 12px 0 #00000036; */
   padding: 10px 20px;
   font-weight: 600;
 }
+.cstm-btn-new:hover{
+  background-color: #ed1c25;
+  color: #ffffff;
+}
 
 .products-area .button-area-new {
   text-align: center;
@@ -1742,6 +1746,7 @@ box-shadow: 0 2px 12px 0 #00000036; */
 #contact-us {
   width: 100%;
   position: relative;
+      overflow: hidden; 
   padding: 60px 0;
 }
 
@@ -2995,9 +3000,6 @@ ul li.updown-btn .input-number {
   text-decoration: underline;
 }
 
-
-
-
  .range-slider {
   text-align: center;
   position: relative;
@@ -3712,4 +3714,31 @@ div.sticky-sidebar-product-list {
 
 .overlay button:hover {
   background: #35835d;
+}
+.contact-us-alert{
+  width: 650px;
+    margin: 0 auto;
+    padding-bottom: 18px;
+}
+.wishlist-link {
+  position: absolute;
+  top: 34px;
+  right: 10px;
+  font-size: 15px;
+  width: 37px;
+  height: 37px;
+  color: #e91b00;
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 10px #00000024;
+  border-radius: 100%;
+  line-height: 39px;
+  z-index: 999;
+  display: block;
+}
+.wishlist-link:hover {
+  color: #e91b00 !important;
+}
+.wishlist-link.product-list{
+  right: 27px;
 }

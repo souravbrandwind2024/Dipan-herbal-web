@@ -26,6 +26,9 @@
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
+  .two-btn-wrap ul{
+    flex-direction: column;
+  }
   #product-details .form-wrap .cstm-btn {
     min-width: 130px;
   }
@@ -218,6 +221,145 @@
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767px) {
+  ul.product-size li{
+    margin-bottom: 3px;
+  }
+  .size-box h5{
+    font-size: 13px;
+  }
+  .order-wrap p {
+    font-size: 14px;
+    line-height: 22px;
+}
+  .order-wrap a h3{
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .product-order-detail img{
+    height: 137px;
+  }
+  .product-order-detail{
+    flex-direction: column;
+  }
+  .order-detail h6{
+    font-size: 13px;
+  }
+  .order-detail h4 span{
+    font-size: 11px;
+  }
+  .order-detail h4{
+    font-size: 14px;
+  }
+  .two-btn-wrap ul li{
+    margin-right: 0;
+  }
+  .wishlist-link.details{
+    width: 44px;
+    height: 44px;
+    bottom: -12%;
+    right: 6%;
+  }
+  .product-top-list .form-group label{
+    font-size: 13px;
+  }
+  .product-top-list .form-group .form-control{
+    height: 41px;
+  }
+  .product-top-list h4{
+    font-size: 14px;
+    margin-bottom: 13px;
+  }
+  .product-top-list{
+    flex-direction: column;
+    margin-top: 22px;
+  }
+  .custom-control{
+    font-size: 14px;
+  }
+  .password-eye{
+    bottom: 27.7%;
+  }
+  .order-history-area .menu-info .tab-content .content-area .form-area .form-group label{
+    font-size: 13px;
+  }
+  .order-history-area .shopping-menu .nav .nav-item .nav-link.active{
+    font-size: 13px;
+}
+.order-history-area .shopping-menu .nav .nav-item .nav-link{
+  font-size: 13px;
+  padding: 13px 13px 13px 13px;
+}
+.order-history-area .menu-info .tab-content .content-area{
+    margin-top: 30px;
+    padding: 18px 12px 12px 12px;
+}
+.order-history-area .menu-info .tab-content .content-area .header-area h2{
+    padding: 0 12px 12px 10px;
+    font-size: 14px;
+}
+.order-history-area .menu-info .tab-content .content-area .form-area{
+    padding: 14px 9px 12px 10px;
+}
+.order-history-area .menu-info .tab-content .content-area .form-area .form-group{
+    margin-bottom: 13px;
+}
+.order-history-area .menu-info .tab-content .content-area .form-area .form-group .form-control{
+    height: 41px;
+    font-size: 14px;  
+}
+.order-history-area .menu-info .tab-content .content-area .form-area .button-area .submit-btn{
+    padding: 9px 15px 9px 14px;
+}
+.order-history-area .menu-info .tab-content .content-area .card-area{
+    padding: 19px 15px 20px 14px;
+}
+.order-history-area .menu-info .tab-content .content-area .card-area .card-wrapper{
+    flex-direction: column;
+}
+.order-history-area .menu-info .tab-content .content-area .card-area .card-wrapper .left-area{
+    width: 100%;
+}
+.order-history-area .menu-info .tab-content .content-area .card-area .card-wrapper .left-area .content-area h3{
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+.order-history-area .menu-info .tab-content .content-area .card-area .card-wrapper .left-area .content-area{
+    padding: 0 5px 0 9px;
+    margin: 0;
+}
+.order-history-area .menu-info .tab-content .content-area .card-area .card-wrapper .left-area .content-area p{
+    font-size: 13px;
+    line-height: 22px;
+}
+.order-history-area .menu-info .tab-content .content-area .card-area .card-wrapper .right-area{
+    width: 100%;
+}
+.order-history-area .menu-info .tab-content .content-area .card-area .card-wrapper .right-area .button-area{
+    margin-top: 30px;
+}
+.order-history-area .menu-info .tab-content .content-area .card-area .card-wrapper .right-area .button-area .btn{
+    padding: 7px 18px 7px 18px;
+    font-size: 11px;
+}
+.order-history-area .top-area .wrap-area .left-area h3{
+    font-size: 13px;
+}
+.order-history-area .top-area{
+    padding: 14px 18px 14px 14px;
+}
+.order-history-area .menu-info .tab-content .content-area .form-area .button-area{
+    margin-top: 19px;
+}
+.order-history-area .menu-info .tab-content .content-area .helps-content-area{
+    margin-top: 15px;    
+}
+.order-history-area .menu-info .tab-content .content-area .helps-content-area ul li{
+    font-size: 14px;
+    line-height: 24px;
+}
+.order-history-area .menu-info .tab-content .content-area .helps-content-area ul li i{
+    font-size: 11px;
+}
   .contact-us-alert{
     width: 100%;
   }
@@ -294,13 +436,16 @@
   }
   .two-btn-wrap ul li a.buy-now{
     width: unset;
+    padding: 14px 10px;
+    font-size: 13px;
+    height: auto;
   }
   .two-btn-wrap ul li a.cart-btn{
     width: unset;
+    padding: 12px 10px;
+    font-size: 13px;
   }
-  .two-btn-wrap ul{
-    flex-direction: column;
-  }
+
   ul.waitbtn li{
     margin-bottom: 13px;
   }

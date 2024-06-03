@@ -110,11 +110,11 @@ $('.product-carousel').owlCarousel({
   animateOut: 'fadeOut',
   navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
 //   autoplay: true,
-  autoplay: 8500,
-  autoplayTimeout: 4500,
+  autoplay: 2500,
+  autoplayTimeout: 2500,
 //   smartSpeed: 2000,
-smartSpeed: 4500,
-  dotsSpeed: 4500,
+smartSpeed: 2500,
+  dotsSpeed: 2500,
   autoplayHoverPause: true,
   responsive: {
       0: {
@@ -241,7 +241,17 @@ $('#example').tooltip(options)
 
 
 
+
+
 });
+
+
+
+// password eye open close
+$('.password-eye').click(function(){
+  $(this).toggleClass("active");
+});
+
 
 
 // wishlist-heart-icon-area-start //

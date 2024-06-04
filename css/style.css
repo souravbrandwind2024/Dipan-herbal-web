@@ -2442,7 +2442,7 @@ box-shadow: 0 2px 12px 0 #00000036; */
 }
 
 #my-order .table a.view:hover {
-  color: #000;
+  color: #1ea346;
   text-decoration: underline;
 }
 
@@ -2450,6 +2450,7 @@ box-shadow: 0 2px 12px 0 #00000036; */
   margin-left: 10px;
   font-size: 15px;
   font-weight: 700;
+  color: #e91b00;
 }
 
 #my-order .table a.track:hover {
@@ -4063,7 +4064,7 @@ display: block;
   font-weight: 600;
   display: flex;
   align-items: center;
-  font-size: calc(17px + 3*(100vw - 320px)/1600);
+  font-size: calc(14px + 3*(100vw - 320px)/1600);
   margin: 0;
 }
 .order-detail h4 span{
@@ -4149,6 +4150,7 @@ ul.product-size li{
 .order-table .table thead th{
   padding-left: 16px;
   padding: .75rem .6rem;
+  font-size: 15px;
 }
 .fs-15 {
   font-size: 15px !important;
@@ -4176,7 +4178,7 @@ ul.product-size li{
 .flex-grow-1 a h6{
   color: #0c192c;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 8px;
 }
 .flex-grow-1 p{
@@ -4186,10 +4188,11 @@ ul.product-size li{
 .bg-success-subtle {
   background-color: #cdf7ec !important;
   color: #06d6a0;
+  padding: 5px;
 }
 .btn-icon.btn-sm {
-  height: 29px;
-  width: 29px;
+  height: 38px;
+  width: 38px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -4204,8 +4207,8 @@ ul.product-size li{
   margin-left: 13px;
 }
 .btn-soft-info svg{
-  width: 18px;
-  height: 18px;
+  width: 14px;
+  height: 14px;
 }
 .btn-soft-danger svg{
   width: 18px;
@@ -4214,4 +4217,19 @@ ul.product-size li{
 .bg-danger-subtle {
   background-color: #fcdae2 !important;
   color: #ef476f !important;
+  padding: 5px;
+}
+
+.password-eye.third {
+  position: absolute;
+  bottom: 24%;
+  right: 3%;
+  padding: 0 10px;
+}
+.btn-icon.btn-sm:hover{
+  color: red;
+}
+.order-table .table-responsive .table tr td.price{
+  font-size: 15px;
+  font-weight: 600;
 }

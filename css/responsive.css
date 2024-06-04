@@ -221,6 +221,16 @@
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767px) {
+  .flex-grow-1 p {
+    line-height: 18px;
+}
+  .flex-grow-1 a h6{
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .order-table .table thead th{
+    font-size: 12px;
+  }
   ul.product-size li{
     margin-bottom: 3px;
   }

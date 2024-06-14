@@ -26,6 +26,12 @@
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
+  .blog_details .details_image img{
+    height: 182px;
+  }
+  .about-us-area .left-image-area{
+    margin-bottom: 20px;
+  }
   .address-area{
     width: 100%;
   }
@@ -232,6 +238,44 @@
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767px) {
+  .wrapper-info p{
+    font-size: 14px;
+  }
+  .about-details{
+    font-size: 15px;
+    margin: 10px 0 6px;
+  }
+  .about-service .about-wrapper .wrapper-img span img {
+    width: 37px;
+}
+  .about-service .about-wrapper .wrapper-img{
+    width: 74px;
+    height: 74px;
+  }
+  .about-service .about-wrapper{
+    width: 100%;
+  }
+  .point-area ul li svg{
+    width: 18px;
+    height: 16px;
+  }
+  .point-area ul li{
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .point-area {
+    margin-top: 15px;
+}
+  .about-us-area .right-content p{
+    font-size: 14px;
+    margin: 15px 0 14px 0;
+  }
+  .about-us-area .right-content h3{
+    font-size: 16px;
+  }
+  .about-us-area .left-image-area img{
+    height: 200px;
+  }
   .address-area span{
     font-size: 14px;
   }
@@ -954,4 +998,17 @@
   .shipping_metter_part ul.complete {
       width: 105px;
   }
+}
+
+@media (max-width: 1023px) {
+  .about-service .about-service-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 3rem;
+  }
+  .about-service .seperator {
+    display: none;
+}
 }

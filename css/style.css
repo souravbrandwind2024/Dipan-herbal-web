@@ -952,7 +952,7 @@ box-shadow: 0 2px 12px 0 #00000036; */
   text-transform: uppercase;
   font-size: 14px;
   line-height: 23px;
-  font-weight: 400;
+  font-weight: 500;
   transition: 0.3s;
   font-family: "Poppins", sans-serif;
   display: -webkit-box;
@@ -1072,7 +1072,7 @@ box-shadow: 0 2px 12px 0 #00000036; */
 
 .product-active {
   background-color: #f1f1f194;
-  padding: 19px 19px 0 19px;
+  padding: 19px 16px 0 15px;
   border: none;
   border-radius: 11px 11px 0 0;
   padding-bottom: 47px;
@@ -1127,9 +1127,9 @@ box-shadow: 0 2px 12px 0 #00000036; */
 }
 
 .product-wrapper .product-content .price ul li.old-price {
-  color: #383838;
+  color: #757474;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 16px;
   font-family: "Poppins", sans-serif;
   text-decoration: line-through;
 }
@@ -2664,6 +2664,9 @@ ul li.updown-btn {
   width: 136px;
   border: 1px solid #9e9e9e;
   border-radius: 25px;
+}
+ul li.updown-btn button{
+  background-color: transparent;
 }
 ul li.updown-btn .input-number-decrement {
   color: #9e9e9e;
@@ -4332,6 +4335,109 @@ ul.product-size li{
  width: unset;
 }
 
-
 /* ----- My-Order-details-area-end ------- */
+
+
+/* ----- about-us-area-start ------- */
+.about-us-area{
+  width: 100%;
+  position: relative;
+}
+.about-us-area .left-image-area img{
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+.about-us-area .right-content h3{
+  color: #232532;
+  font-size: 26px;
+  font-weight: 600;
+}
+.about-us-area .right-content p{
+  font-size: 15px;
+  line-height: 22px;
+  margin: 27px 0 20px 0;
+}
+.point-area{
+  margin-top: 30px;
+}
+.point-area ul li{
+  font-size: 15px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 22px;
+  margin-bottom: 9px;
+}
+.point-area ul li svg{
+  width: 22px;
+  height: 28px;
+  fill: #1ea346;
+  margin-right: 8px;
+}
+.about-us-area .right-content .button-area{
+  margin-top: 36px;
+}
+.about-service {
+  background: #fffafe;
+}
+.about-service .about-service-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 0;
+}
+.about-service .about-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  width: 28.6rem;
+  text-align: center;
+  transition: all 0.7s ease;
+}
+.about-service .about-wrapper:hover{
+  transform: translateY(-12px);
+}
+.about-service .about-wrapper .wrapper-img{
+  width: 104px;
+  height: 104px;
+  background-color: #29994bdb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 3px solid #2a9a5b;
+}
+.about-service .about-wrapper .wrapper-img span img{
+  width: 60px;
+}
+.about-service .seperator {
+  width: 1px;
+  height: 19.7rem;
+  background: rgba(174, 28, 154, .1294117647);
+}
+.about-details {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 20px 0 20px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.wrapper-info p{
+  font-size: 15px;
+  color: #797979;
+  font-weight: 400;
+}
+
+/* ----- about-us-area-end ------- */
+
 

@@ -405,6 +405,12 @@ input:-webkit-autofill:focus {
   /* padding: 6px; */
   display: flex;
   align-items: center;
+  flex-direction: column;
+}
+#menu-area .navbar-brand span{
+  font-size: 14px;
+  margin-top: 6px;
+  font-weight: 700;
 }
 
 #menu-area .navbar-brand img {

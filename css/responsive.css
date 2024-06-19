@@ -238,6 +238,9 @@
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767px) {
+  #menu-area .navbar-brand span{
+    font-size: 11px;
+  }
   .wrapper-info p{
     font-size: 14px;
   }
